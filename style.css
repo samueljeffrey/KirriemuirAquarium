@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+/* Header Area */
+
+.header {
+  margin: 0;
+  background-color: white;
+  color: #01001c;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 0.2em;
+}
+
+.sitelogo {
+  display: flex;
+  margin: 10px;
+  margin-left: auto;
+  padding-left: 10px;
+  animation: rotate 3s infinite;
+  -moz-animation: rotate 3s infinite;
+  -webkit-animation: rotate 3s infinite;
+}
+
+h1 {
+  display: flex;
+  margin: 10px;
+  margin-right: auto;
+  font-size: 2.5em;
+}
+
+/* Main Areas */
+
+.main {
+  background: linear-gradient(to bottom, #03cafc, #01001c);
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.cafemenu {
+  color: white;
+  text-decoration: none;
+}
+
+.cafemenu:hover {
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 10px;
+  border-color: white;
+  width: 50%;
+  margin: 50px auto 50px auto;
+}
+
+.content {
+  text-align: left;
+  justify-content: center;
+  width: 70%;
+  margin: 25px 15% 25px 15%;
+  font-size: 1.25em;
+}
+
+.fishgrid {
+  color: white;
+  letter-spacing: 0.1em;
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 5;
+  align-content: center;
+}
+
+.fishimage {
+  height: 200px;
+  margin: 50px;
+  display: inline-block;
+  animation: rotate 2s infinite;
+  -moz-animation: rotate 2s infinite;
+  -webkit-animation: rotate 2s infinite;
+}
+
+.singlefish {
+  text-align: center;
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+
+h3 {
+  padding-top: 50px;
+}
+
+.pagetitle {
+  margin-left: 20%;
+}
+
+table {
+  margin-left: 20%;
+}
+
+.seasons {
+  color: white;
+  margin-left: 20%;
+}
+
+form {
+  color: white;
+  margin-left: 20%;
+}
+
+button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: white;
+  font-size: 16px;
+  background: #01001c;
+  padding: 10px 15px 10px 15px;
+  border: solid #ffffff 1px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #03cafc;
+  text-decoration: none;
+}
+
+/* Sidebar Area */
+
+.sidebaritem {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.25em;
+  background-color: white;
+  border-color: #01001c;
+  border-style: solid;
+  border-width: 5px;
+  color: #01001c;
+}
+
+.sidebar > a {
+  text-decoration: none;
+}
+
+.sidebar a:visited {
+  text-decoration: none;
+  color: #01001c;
+}
+
+.sidebaritem:hover {
+  transition: 0.5s all;
+  padding: 15px 10px;
+  font-size: 1.5em;
+  color: #03cafc;
+}
+
+/* Footer Area */
+
+.footer {
+  background-color: white;
+  color: #01001c;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.socialmediaiconbox {
+  margin-left: auto;
+  min-width: 20%;
+  align-items: center;
+}
+
+.socialmediaicon {
+  height: 50px;
+  width: 50px;;
+}
+
+.socialmediaicon:hover {
+  background-color: #03cafc;
+  transition: 0.5s all;
+  height: 60px;
+  width: 60px;
+}
+
+span {
+  font-size: 1.25em;
+  font-family: sans-serif;
+}
+
+.footnote {
+  min-width: 20%;
+  margin-right: auto;
+  padding: 10px;
+  font-size: 1.25em;
+}
+
+/* Animations */
+
+@-moz-keyframes rotate {
+    0% { -moz-transform: rotate(-15deg); }
+    50% { -moz-transform: rotate(15deg); }
+    100% { -moz-transform: rotate(-15deg); }
+}
+@-webkit-keyframes rotate {
+    0% { -webkit-transform: rotate(-15deg); }
+    50% { -webkit-transform: rotate(15deg); }
+    100% { -webkit-transform: rotate(-15deg); }
+}
+@keyframes rotate {
+    0% {transform:rotate(-15deg);}
+    50% {transform:rotate(15deg);}
+    100% {transform:rotate(-15deg);}
+}
